@@ -1,0 +1,16 @@
+<project>
+<target name="compile">
+<mkdir dir="build/classes"/>
+<javac srcdir="src/calculator" destdir="build/classes"/>
+</target>
+<target name="jar">
+<jar destfile="build/main.jar" basedir="build/classes">
+<manifest>
+<attribute name="Main-Class" value="calculator.Calculator"/>
+</manifest>
+</jar>
+</target>
+<target name="run">
+<java jar="build/main.jar" fork="true"/>
+</target>
+</project>

@@ -18,6 +18,8 @@ public class Calculator {
     System.out.println("choose the number of operation which you want to perform");
   System.out.println("1.ADDITION");
   System.out.println("2.SUBTRACTION");
+  System.out.println("3.MULTIPLICATION");
+  System.out.println("4.DIVISION");
   selection=sc.nextInt();
   
    
@@ -33,7 +35,16 @@ public class Calculator {
         else if(selection==2){
         c=obj.sub(a,b);
        System.out.println("your answer is:"+c);
-        }  
+        }
+        else if(selection==3){
+        c=obj.mul(a,b);
+       System.out.println("your answer is:"+c);
+        }
+        else if(selection==4){
+        c=obj.div(a,b);
+       System.out.println("your answer is:"+c);
+        }
+
         else{
         System.out.println("invalid input");
         }

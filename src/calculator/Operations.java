@@ -13,4 +13,17 @@ public static int sub(int x,int y){
         z=x-y;
         return z;
 }
+
+public static int mul(int x,int y){
+ int z;
+        z=x*y;
+        return z;
 }
+
+public static int div(int x,int y){
+ int z;
+        z=x/y;
+        return z;
+}
+}
+

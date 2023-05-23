@@ -2,5 +2,5 @@
 Name:Syed Mahed Ahmed Bukhari
 Roll no:2k22/CSE/103
 Contributor
-Nmae:Yashpal Kumar
+Name:Yashpal Kumar
 Roll no:2k22/CSE/116
